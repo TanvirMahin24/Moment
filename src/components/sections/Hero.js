@@ -57,20 +57,17 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1
-              className="mt-0 mb-16 reveal-from-bottom  hero__title"
+              className="mt-0 mb-16 reveal-from-bottom hero__title"
               data-reveal-delay="200"
             >
-              <span className="text-color-primary">Moment</span>
+              <span className="text-color-primary font__momment">Moment</span>
             </h1>
             <div className="container-xs">
               <p
-                className="m-0 mb-32 reveal-from-bottom"
+                className="m-0 mb-32 reveal-from-bottom font__momment hero__motto"
                 data-reveal-delay="400"
               >
-                Moment is a customized accessories online store. We deliver some
-                quality products to make your home and life more beautiful. We
-                are always trying to provide some quality products to our
-                customer’s hands at an affordable price.
+                Customize your Dreams
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -78,9 +75,9 @@ const Hero = ({
                     tag="a"
                     color="primary"
                     wideMobile
-                    href="https://cruip.com/"
+                    href="https://fb.me/support.momment"
                   >
-                    Get started
+                    View Facebook Page
                   </Button>
                   <Button
                     tag="a"
@@ -88,7 +85,7 @@ const Hero = ({
                     wideMobile
                     href="https://github.com/cruip/open-react-template/"
                   >
-                    View on Github
+                    Know About Us
                   </Button>
                 </ButtonGroup>
               </div>

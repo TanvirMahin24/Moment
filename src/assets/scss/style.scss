@@ -1,14 +1,12 @@
 /*--------------------------------------------------------------
 # Based on Cruip framework - v1.0.0
 --------------------------------------------------------------*/
-
+@import url("https://fonts.googleapis.com/css2?family=Montez&display=swap");
 /*--------------------------------------------------------------
 # Variables, functions and mixins
 --------------------------------------------------------------*/
-@import "core/abstracts/functions",
-		"settings/settings",
-        "core/abstracts/mixins",
-        'core/abstracts/include-media';
+@import "core/abstracts/functions", "settings/settings", "core/abstracts/mixins",
+  "core/abstracts/include-media";
 
 /*--------------------------------------------------------------
 # Normalize

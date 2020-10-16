@@ -2,5 +2,16 @@
   transform: translate(0, 20px);
 }
 .hero__title {
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: 400;
+}
+.svg__white {
+  fill: #fff;
+}
+.font__momment {
+  font-family: "Montez";
+}
+.hero__motto {
+  font-size: 1.5rem;
+  padding-bottom: 40px;
 }
