@@ -74,6 +74,7 @@ const Testimonial = ({
                     <a
                       href="https://www.facebook.com/tanvir.mahin.1/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Founder, Moment
                     </a>

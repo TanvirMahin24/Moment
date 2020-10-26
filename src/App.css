@@ -1,3 +1,10 @@
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+  background: #fff !important;
+  height: 3px;
+}
+
 .header__logo {
   transform: translate(0, 20px);
 }
@@ -14,4 +21,64 @@
 .hero__motto {
   font-size: 1.5rem;
   padding-bottom: 10px;
+}
+.about__bg {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.about__bg img {
+  width: 70%;
+  float: right;
+  animation: 10s aboutBgAnimation infinite;
+}
+.about__contents {
+  width: 100%;
+  margin: auto auto;
+  border: 4px solid #618fd1;
+}
+
+.about__contents {
+  position: relative;
+  z-index: 0;
+  padding-left: 45px;
+}
+.site-header.about__header {
+  position: relative !important;
+}
+.about__header__font {
+  font-size: 36px;
+}
+.about__contents p {
+  padding-right: 50%;
+}
+.about {
+  padding: 0 25px 25px 25px;
+}
+@keyframes aboutBgAnimation {
+  0% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(2%, 0);
+  }
+  60% {
+    transform: translate(2%, -2%);
+    transform: scale(1.05);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@media screen and (max-width: 768px) {
+  .about__contents {
+    position: relative;
+    z-index: 5;
+    background: #15171991;
+    padding-left: 45px;
+  }
+  .about__contents p {
+    padding-right: 0;
+  }
 }

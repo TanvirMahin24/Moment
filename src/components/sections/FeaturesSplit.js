@@ -98,14 +98,16 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  High Quality And Custom Design
                 </div>
-                <h3 className="mt-0 mb-12">Data-driven insights</h3>
+                <h3 className="mt-0 mb-12">Customized Coffee Mug</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  We make Coffee Mugs based on your design. If you want to gift
+                  a customized coffee mug to your friends or any loved one's we
+                  have the perfect design for you. We have many pre-designed
+                  mugs for you to choose from. If you don't like our design you
+                  have the freedom to make mugs of your own design exactly at
+                  the same price range.
                 </p>
               </div>
               <div
@@ -116,7 +118,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/features-split-image-02.png")}
+                  src={require("./../../assets/images/Mug.png")}
                   alt="Features split 02"
                   width={528}
                   height={396}
@@ -130,14 +132,18 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Build your own business
                 </div>
-                <h3 className="mt-0 mb-12">Data-driven insights</h3>
+                <h3 className="mt-0 mb-12">
+                  Build your own business with Moment
+                </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  If you have any business ideas with custom gifts or
+                  accessories all you need is to ask our team. We are new and
+                  full of energetic people who are always ready to make your
+                  idea came true. We don't have any physical store so if you
+                  want to make one and start your own business with Moment you
+                  can contact us.
                 </p>
               </div>
               <div
@@ -148,7 +154,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/features-split-image-03.png")}
+                  src={require("./../../assets/images/Logo.png")}
                   alt="Features split 03"
                   width={528}
                   height={396}

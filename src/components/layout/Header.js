@@ -18,6 +18,7 @@ const defaultProps = {
   hideSignin: false,
   bottomOuterDivider: false,
   bottomDivider: false,
+  about: false,
 };
 
 const Header = ({
@@ -27,6 +28,7 @@ const Header = ({
   hideSignin,
   bottomOuterDivider,
   bottomDivider,
+  about,
   ...props
 }) => {
   const [isActive, setIsactive] = useState(false);
@@ -87,7 +89,12 @@ const Header = ({
             bottomDivider && "has-bottom-divider"
           )}
         >
-          <Logo />
+          {!about && <Logo />}
+          {about && (
+            <span className="text-color-primary font__momment about__header__font">
+              <Link to="/">Moment</Link>
+            </span>
+          )}
           {!hideNav && (
             <>
               <button
@@ -112,12 +119,12 @@ const Header = ({
                     )}
                   >
                     <li>
-                      <Link to="#0" onClick={closeMenu}>
+                      <Link to="/about" onClick={closeMenu}>
                         About Us
                       </Link>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>
+                      <Link to="/contact" onClick={closeMenu}>
                         Contact
                       </Link>
                     </li>

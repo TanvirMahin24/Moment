@@ -79,12 +79,7 @@ const Hero = ({
                   >
                     View Facebook Page
                   </Button>
-                  <Button
-                    tag="a"
-                    color="dark"
-                    wideMobile
-                    href="https://github.com/cruip/open-react-template/"
-                  >
+                  <Button tag="a" color="dark" wideMobile href="/about">
                     Know About Us
                   </Button>
                 </ButtonGroup>
