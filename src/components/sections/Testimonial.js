@@ -41,8 +41,7 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: "Testimonials",
-    paragraph:
-      "Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.",
+    paragraph: "Lets see what people say about moment. We value every review.",
   };
 
   return (
@@ -87,19 +86,22 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — Moment is a social and creative organization. It mainly
+                    provides many kinds of wonderful watches, mugs, and we also
+                    provide a logo, banner, and website design service. It is
+                    also a trusted organization. Customer satisfaction is our
+                    main priority.
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Diana Rynzhuk
+                    Maisha Tasnim
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="https://www.facebook.com/100028235268809">
+                      Designer, Moment
+                    </a>
                   </span>
                 </div>
               </div>
@@ -112,19 +114,22 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — Moment is the place of happiness and fun. I love working
+                    with the moment team. I enjoy every second I spent. This
+                    team is always ready to provide quality products to its
+                    customers. This is where Moment stands out from the rest of
+                    the online gift shops and services.
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Ben Stafford
+                    Nafis Ahanaf
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="https://www.facebook.com/nafis.ahnaf.969">
+                      Marketing Moment
+                    </a>
                   </span>
                 </div>
               </div>

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "./partials/Logo";
 
 const propTypes = {
@@ -92,7 +92,9 @@ const Header = ({
           {!about && <Logo />}
           {about && (
             <span className="text-color-primary font__momment about__header__font">
-              <Link to="/">Moment</Link>
+              <Link to="/" className="header__moment-title">
+                Moment
+              </Link>
             </span>
           )}
           {!hideNav && (
@@ -119,14 +121,22 @@ const Header = ({
                     )}
                   >
                     <li>
-                      <Link to="/about" onClick={closeMenu}>
+                      <NavLink
+                        to="/about"
+                        onClick={closeMenu}
+                        activeClassName="selected-page"
+                      >
                         About Us
-                      </Link>
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/faq" onClick={closeMenu}>
+                      <NavLink
+                        to="/faq"
+                        onClick={closeMenu}
+                        activeClassName="selected-page"
+                      >
                         FAQ's
-                      </Link>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>

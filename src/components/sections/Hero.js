@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import classNames from "classnames";
+
+import { Link } from "react-router-dom";
 import { SectionProps } from "../../utils/SectionProps";
 import ButtonGroup from "../elements/ButtonGroup";
 import Button from "../elements/Button";
@@ -79,8 +81,8 @@ const Hero = ({
                   >
                     View Facebook Page
                   </Button>
-                  <Button tag="a" color="dark" wideMobile href="/about">
-                    Know About Us
+                  <Button tag="span" color="dark" wideMobile href="/about">
+                    <Link to="/about">Know About Us</Link>
                   </Button>
                 </ButtonGroup>
               </div>
