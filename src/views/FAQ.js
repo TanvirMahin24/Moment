@@ -48,7 +48,7 @@ const FAQ = () => {
           <div className="faq__line"></div>
           <h4>Can you tell me about your payment methods?</h4>
           <p>
-            Currently, Moment receives payment throughout Bikash. We are trying
+            Currently, Moment receives payment throughout Bkash. We are trying
             our best to add more payment methodes for our customers.
           </p>
           <div className="faq__line"></div>
